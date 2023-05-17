@@ -60,11 +60,11 @@ for n, id_ in tqdm(enumerate(test_ids), total=len(test_ids)):
 
 print('Done!')
 
-image_x = random.randint(0, len(train_ids))
-imshow(X_train[image_x])
-plt.show()
-imshow(np.squeeze(Y_train[image_x]))
-plt.show()
+# image_x = random.randint(0, len(train_ids))
+# imshow(X_train[image_x])
+# plt.show()
+# imshow(np.squeeze(Y_train[image_x]))
+# plt.show()
 
 ####################################################################################################################################
 #Build the model
